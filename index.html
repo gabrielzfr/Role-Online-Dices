@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="responsabilidade.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Role Online Dices</title>
+</head>
+<body>
+    <div id="res"></div>
+    <header>
+        <h1>Boas-Vindas ao ROD</h1>
+    </header>
+    <main>
+       <!-- roll -->
+    <div class="roll">
+        <h2>Clique em Rolar para ter o resultado</h2>
+        <input type="button" value="Rolar" id="roll" onclick="rolar()">
+    </div>
+    <article class="choice">
+        <h2 id="escd">Escolha o dado</h2>
+        <div class="choicebuttons">
+            <input type="button" value="D4" id="D4" onclick="seld4()">
+            <input type="button" value="D6" id="D6" onclick="seld6()">
+            <input type="button" value="D10" id="D10" onclick="seld10()">
+            <input type="button" value="D20" id="D20" onclick="seld20()">
+            <input type="button" value="D100" id="D100" onclick="seld100()">
+        </div>
+        <p>Escolha qual dado deseja rolar clicando nos botões acima. Apos escolher o dado clique em rolar e tenha o resultado.</p>
+        
+    </article> 
+
+    <article class="his">
+        <table>
+            <caption>Histórico</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Dado</th>
+                    <th scope="col" style="width: 50px;">Resultado</th>  
+                </tr>
+                
+            </thead>
+            <tbody id="tbd">
+
+            </tbody>
+        </table>
+    </article>
+    </main>
+    
+</body>
+
+<script src="roll.js"></script>
+</html>

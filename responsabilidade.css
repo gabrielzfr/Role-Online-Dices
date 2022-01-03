@@ -1,0 +1,61 @@
+@media  (max-width: 860px){
+    .choice input {
+        height: 100px;
+        width: 100px;
+    }
+
+    .choice p {
+        text-align: center;
+    }
+
+    #res input#x {
+        font-size: 35px;
+        height: 40px;
+        width: 40px;
+        margin-left: 190px;
+    }
+    #res h3#h3 {
+        font-size: 30px;
+    }
+    
+    #res p#p {
+        font-size: 90px;
+    }
+
+    
+}
+
+@media (max-width: 765px) {
+    .choice .choicebuttons   {
+        display: flexbox;
+        flex-wrap: wrap;
+    }
+
+    p {
+        font-size: 14px;
+        
+    }
+}
+@media (max-width: 465px) {
+    header h1 {
+        text-align: center;
+        
+    }
+    header {
+        margin: 0;
+    }
+
+    .roll h2 {
+        text-align: center;
+        margin: 10px 0px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+  
+    
+
+    
+}
