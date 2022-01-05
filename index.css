@@ -197,9 +197,7 @@ footer {
     margin-top: 95px;
     background-color: var(--button-color);
 }
-footer > p {
 
-}
 footer > p > a {
     text-decoration: none;
     color: var(--constrat-color);
