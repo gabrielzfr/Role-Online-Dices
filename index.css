@@ -28,6 +28,7 @@ body {
     
     position: relative;
     background-color:var(--background-cor);
+
 }
 
 input {
@@ -83,15 +84,17 @@ header h1 {
 }
 .roll input#roll:hover {
     animation: loading 0.80s;
-
+    
 }
 
 @keyframes loading {
 	0% {
 		transform: rotate(0);
+        
 	}
 	100% {
 		transform: rotate(360deg);
+        
 	}
 }
 .choicebuttons {
@@ -158,6 +161,7 @@ article.his {
     display: flex;
     justify-content: center;
     margin-top: 40px;
+    margin-bottom: px;
 }
 
 table {
@@ -186,4 +190,23 @@ tr >  th {
 
 td.num {
     text-align: end;
+}
+footer {
+    text-align: center;
+    
+    margin-top: 95px;
+    background-color: var(--button-color);
+}
+footer > p {
+
+}
+footer > p > a {
+    text-decoration: none;
+    color: var(--constrat-color);
+}
+footer > p > a:hover {
+    text-decoration: underline;
+}
+footer > p > a::after {
+    content: '\1F517';
 }
