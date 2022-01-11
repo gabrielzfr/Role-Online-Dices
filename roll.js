@@ -36,7 +36,7 @@ function rolar() {
         <p id = 'p'>${number}</p>`
 
     } else if (dado == 'd20') {
-        var number = Math.floor(Math.random() * 20 + 1)
+        var number = Math.floor(Math.random() * 30 + 1)
         res.innerHTML = `<input type="button" value="X" id="x" onclick="fechar()">
         <h3 id = 'h3'>O resultado foi</h3>
         <p id = 'p'>${number}</p>`
