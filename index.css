@@ -81,6 +81,7 @@ header h1 {
 
     border: none;
     margin: 45px 0px;
+    z-index: 1;
 }
 .roll input#roll:hover {
     animation: loading 0.80s;
